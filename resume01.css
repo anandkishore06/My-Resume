@@ -1,0 +1,220 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Source+Sans+Pro&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Source+Sans+Pro&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=IBM+Plex+Sans&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Source+Sans+Pro&display=swap');
+body
+{
+    font-family: sans-serif;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: aliceblue;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left-side
+{
+    position: relative;
+    background: #003147;
+    padding: 60px;
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profile .img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile .img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile h2
+{
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 1.6em;
+    margin-top: 20px;
+    /* text-transform: uppercase; */
+    text-align: center;
+    font-weight: 600;
+}
+.profile h2 span
+{
+    font-size: 0.7em;
+    font-weight: 300;
+}
+.contactInfo
+{
+    padding: 20px;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    margin-bottom: 10px;
+}
+.contactInfo ul
+{
+    position: relative;
+
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    /* cursor: pointer; */
+}
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li a
+{
+    color: #fff;
+   text-decoration: none;
+}
+.contactInfo ul li span
+{
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+/* .contactInfo.education
+{
+    margin: 0%;
+} */
+
+.contactInfo.education li
+{
+  
+    margin-bottom: 10px;
+
+}
+.course_name
+{
+    color: rgb(179, 183, 238);
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.loc_degree
+{
+    color: rgb(179, 183, 238);
+    margin: 0px;
+}
+.contactInfo.education h5
+{
+    color: #03a9f4;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.contactInfo.education h4
+{
+    color: #fff;
+    font-weight: 500;
+    margin: 2px;
+}
+.text_
+{
+    font-size: 20px;
+    margin: 6px;
+    padding: 2px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.container .right-side
+{
+    position: relative;
+    background: #fff;
+    /* padding-top: 10px;
+    padding-left: 33px; */
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+.about .box .year_company
+{
+    min-width: 150px;
+}
+.interest
+{
+    display:inline-block;
+    
+    background-color: rgb(206, 202, 202);
+    border:1px solid gray;
+    border-radius: 3px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.container .right-side ul li
+{
+   
+        float: left;
+        list-style-type: none;
+        margin: 6px;
+        /* overflow: hidden;      */
+}
+.text-
+{
+   background-color: rgb(221, 218, 218);
+    list-style: none;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin: 6px;
+    padding: 2px;
+    text-align: center;
+}
+
+
